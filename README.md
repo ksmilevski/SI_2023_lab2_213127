@@ -18,5 +18,7 @@ FFT - user!=null,password!=null,email=null - A-B <br>
 1. username="Kiril",password=null,email=null (user==null || user.getPassword()==null || user.getEmail()==null) <br>
 2. username="Kiril",password="Password123",email="kiril@gmail.com" (Password не го исполнува условот да содржи специјален карактер)<br>
 3. username=null,password="Password123!",email=kirilgmail.com (Username e null и password не го исполнува условот да содржи @ и .)<br>
-4. username="Kiril",password="pas123!",username="kiril@gmail.com (Username или email-oт на новиот корисник веќе постои во листата на корисници и password не го исполнува условот да биде подолг од 8 карактери)<br>
+4. username="Kiril",password="pas123!",username="kiril@gmail.com" (Username или email-oт на новиот корисник веќе постои во листата на корисници и password не го исполнува условот да биде подолг од 8 карактери)<br>
 5. username="Kiril",password="Password 123!",email="kiril@gmail.com" (Password не го исполнува условот да не содржи празно место)<br>
+![Capture](https://github.com/ksmilevski/SI_2023_lab2_213127/assets/126695480/042b5c7d-ffb2-4ea5-b402-569eb26044e9)
+
