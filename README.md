@@ -22,3 +22,9 @@ FFT - user!=null,password!=null,email=null - A-B <br>
 5. username="Kiril",password="Password 123!",email="kiril@gmail.com" (Password не го исполнува условот да не содржи празно место)<br>
 ![Capture](https://github.com/ksmilevski/SI_2023_lab2_213127/assets/126695480/042b5c7d-ffb2-4ea5-b402-569eb26044e9)
 
+**Објаснување на напишаните unit tests**<br>
+Во функцијата EveryBranch() користам assertThrows и assertEquals за сите test cases. Вкупно имам 5 assertions, по еден за секој test case. Test cases се објаснети во сликата погоре (кој test case го опфаќа кој Branch)<br>
+Во функцијата multipleConditions() користам assertThrows (assertTrue и assertFalse) за секој од 4 test cases по еден assertion. Во точката "Тест случаи според критериумот Multiple Condition" го имам објаснето секој test case и кој condition го опфаќа истиот.<br>
+При стартување на функцијата низ сите наведени test cases во конзола јавува дека тестовите се успешни и нема никаква грешка. <br>
+
+
